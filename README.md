@@ -22,8 +22,10 @@ This is a simple [DNN CMS](https://dnncommunity.org) that allows you to create a
 | Retry Time Lapse           | (leave blank)                                          |
 | Run on Event               | (leave blank)                                          |
 | Catch Up Tasks             | Disabled                                               |
-| Enable Schedule            | On                                                     |
-
+| Enable Schedule            | On                                                     |  
+  
+\* or any desired value
+  
 --------------------------------------------------------------  
 
 # Developer Information Only 
