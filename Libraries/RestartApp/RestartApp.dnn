@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="Upendo.Libraries.RestartApp" type="Library" version="01.00.00">
+      <friendlyName>RestartApp Scheduled Job</friendlyName>
+      <description>
+		<![CDATA[<p>Allows a scheduled job to run that automatically restarts the application for your DNN website to clear cache and reload the site. This helps prevent issues on sites that don&#39;t recycle.</p>]]>
+	  </description>
+      <owner>
+        <name>Upendo Ventures</name>
+        <organization>Upendo</organization>
+        <url><![CDATA[<a href="https://upendoventures.com" target="_blank">https://upendoventures.com</a>]]></url>
+        <email><![CDATA[<a href="mailto:solutions@upendoventures.com" target="_blank">solutions@upendoventures.com</a>]]></email>
+      </owner>
+      <license src="License.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <azureCompatible>True</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">09.02.01</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath></basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

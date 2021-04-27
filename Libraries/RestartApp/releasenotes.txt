@@ -1,0 +1,11 @@
+<style>
+	div.uv-install-wrapper h3, div.uv-install-wrapper h4, div.uv-install-wrapper p, div.uv-install-wrapper hr, div.uv-install-wrapper ul { margin-bottom: 0.5em; }
+	div.uv-install-wrapper ul { padding-left: 2em; }
+</style>
+<div class="uv-install-wrapper">
+	<h2>RestartApp Libraries Extension for DNN</h2>
+	<p>Version 01.00.00</p>
+	<ul>
+		<li>Initial release. Allows a scheduled job to run that automatically restarts the application for your DNN website to clear cache and reload the site. This helps prevent issues on sites that don&#39;t recycle.</li>
+	</ul>
+</div>
