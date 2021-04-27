@@ -1,3 +1,33 @@
+# DNN Restart Application Scheduled Job  
+
+This is a simple [DNN CMS](https://dnncommunity.org) that allows you to create a scheduled task in DNN.  This scheduled task will restart the website.  This is useful for sites that happen to use a HTTP keep-alive service.  
+
+## How to Use  
+
+1. [Install the extension](https://www.youtube.com/watch?v=MgLaV0J_eLk) like you would any other DNN extension.  
+2. While logged in as a superuser, use the persona bar to go to the Scheduler feature.  
+3. [Add a scheduled task](https://www.youtube.com/watch?v=s6YmO-9VVeg).  
+
+**Scheduled Task Values**  
+
+| Field Name                 | Value                                                  |
+|----------------------------|--------------------------------------------------------|
+| Friendly Name *            | Restart Application                                    |
+| Full Class Name & Assembly | Upendo.Libraries.RestartApp.ScheduledJobs.RestartApp, Upendo.Libraries.RestartApp |
+| Retain Schedule History *  | 5                                                      |
+| Servers                    | (leave blank)                                          |
+| Object Dependencies        | (leave blank)                                          |
+| Schedule Start Date/Time   | Choose a value in the upcoming overnight hours         |
+| Frequency                  | 1 Days                                                 |
+| Retry Time Lapse           | (leave blank)                                          |
+| Run on Event               | (leave blank)                                          |
+| Catch Up Tasks             | Disabled                                               |
+| Enable Schedule            | On                                                     |
+
+--------------------------------------------------------------  
+
+# Developer Information Only 
+
 **A Special Note to ALL Developers...**  
 Please do not begin any development until you first read through and understand all of the notes in the README below.  
 
