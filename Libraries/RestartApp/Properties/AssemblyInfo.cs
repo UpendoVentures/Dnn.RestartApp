@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Upendo")]
 [assembly: AssemblyProduct("RestartApp Libraries Extension for DNN")]
-[assembly: AssemblyCopyright("Copyright 2021 Upendo")]
+[assembly: AssemblyCopyright("Copyright 2021 Upendo Ventures, LLC")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("01.00.00")]
-[assembly: AssemblyFileVersion("01.00.00")]
+[assembly: AssemblyVersion("01.01.00")]
+[assembly: AssemblyFileVersion("01.01.00")]
