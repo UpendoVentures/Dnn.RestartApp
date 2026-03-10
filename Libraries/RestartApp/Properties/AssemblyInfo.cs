@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("RestartApp Libraries Extension for DNN")]
 [assembly: AssemblyDescription("Allows a scheduled job to run that automatically restarts the application for your DNN website to clear cache and reload the site. This helps prevent issues on sites that don&#39;t recycle.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Upendo")]
+[assembly: AssemblyCompany("Upendo Ventures, LLC")]
 [assembly: AssemblyProduct("RestartApp Libraries Extension for DNN")]
-[assembly: AssemblyCopyright("Copyright 2021 Upendo Ventures, LLC")]
+[assembly: AssemblyCopyright("Copyright  Upendo Ventures, LLC")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("01.01.00")]
-[assembly: AssemblyFileVersion("01.01.00")]
+[assembly: AssemblyVersion("01.02.00")]
+[assembly: AssemblyFileVersion("01.02.00")]

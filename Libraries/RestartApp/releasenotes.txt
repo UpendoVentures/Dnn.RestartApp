@@ -1,14 +1,112 @@
 <style>
 	div.uv-install-wrapper h3, div.uv-install-wrapper h4, div.uv-install-wrapper p, div.uv-install-wrapper hr, div.uv-install-wrapper ul { margin-bottom: 0.5em; }
 	div.uv-install-wrapper ul { padding-left: 2em; }
+	.muy-importante { color:red;font-weight:bold; }
 </style>
 <div class="uv-install-wrapper">
-	<h2>RestartApp Libraries Extension for DNN</h2>
-	<p>Version 01.01.00</p>
+	<h1>Upendo Simple Authorization Provider for DNN</h1>
+	<hr />
+
+	<div class="dnnClear">
+		<p class="muy-importante">The release notes continue after the Sponsors and Contributors below.</p>
+	
+		<h2>Sponsors</h2>
+		<p>Open-source is not free. We're so GRATEFUL for the following people/organizations for <a href="https://github.com/sponsors/UpendoVentures" target="_blank">sponsoring developers</a> to work on this release!</p>
+		<p>Sponsorship is <em>Powered by GitHub Sponsors</em> and ensures that this project lives and thrives. <a href="https://github.com/sponsors/UpendoVentures" target="_blank">Please consider contributing</a> any amount.</p>
+		<p>THANK YOU to the following rockstars!</p>
+		<ul>
+			<li>Adam Bernstein, <a href="https://practicewise.com/" target="_blank">PracticeWise</a></li>
+			<li><a href="https://github.com/puresystems" target="_blank">Pure Systems</a></li>
+			<li>(<i>two private sponsors</i>)</li>
+		</ul>
+	
+		<h2>Contributors</h2>
+		<p>THANK YOU to the following community members for participating in this release!</p>
+		<ul>
+			<li>Will Strohl, <a href="https://upendoventures.com/How/People/Will-Strohl" target="_blank">Upendo Ventures</a></li>
+		</ul>
+	
+		<h2><strong>Release Note Prefixes</strong></h2>
+		<p>The following prefixes are defined as:</p>
+		<ul>
+			<li><strong>SI:</strong> Support/Sponsor Inquiry - This issue was reported by a <a href="https://upendoventures.com/Support" target="_blank">support customer and/or sponsor</a> and, as such, was prioritized above all other tasks.</li>
+		</ul>
+
+		<h2>Release Notes</h2>
+
+		<h3>Version 01.02.00</h3>
+		<h4>Enhancements</h4>
+		<ul>
+			<li>Raised Minimum DNN Support to 10.2 (<a href="https://github.com/UpendoVentures/Dnn.RestartApp/issues/17" target="_blank">Issue 17</a>, thanks <a href="https://github.com/WillStrohl" target="_blank">@WillStrohl</a>!)</li>
+			<!--
+			<li>SI:  (<a href="https://github.com/UpendoVentures/Dnn.RestartApp/issues/" target="_blank">Issue </a>, thanks <a href="https://github.com/" target="_blank">@</a>!)</li>
+			<li>None at this time.</li>
+			-->
+		</ul>
+		<h4>Maintenence &amp Bug Fixes</h4>
+		<ul>
+			<li>None at this time.</li>
+			<!--
+			<li> (<a href="https://github.com/UpendoVentures/Dnn.RestartApp/issues/" target="_blank">Issue </a>, thanks <a href="https://github.com/" target="_blank">@</a>!)</li>
+			<li>None at this time.</li>
+			-->
+		</ul>
+		<hr />
+
+		<h3>Version 01.01.00</h3>
+		<h4>Enhancements</h4>
+		<ul>
+			<li>Raised support for DNN 09.04.04 and up. (no issue, thanks <a href="https://github.com/WillStrohl" target="_blank">@WillStrohl</a>!)</li>
+			<!--
+			<li>SI:  (<a href="https://github.com/UpendoVentures/Dnn.RestartApp/issues/" target="_blank">Issue </a>, thanks <a href="https://github.com/" target="_blank">@</a>!)</li>
+			<li>None at this time.</li>
+			-->
+		</ul>
+		<h4>Maintenence &amp Bug Fixes</h4>
+		<ul>
+			<li>None at this time.</li>
+			<!--
+			<li> (<a href="https://github.com/UpendoVentures/Dnn.RestartApp/issues/" target="_blank">Issue </a>, thanks <a href="https://github.com/" target="_blank">@</a>!)</li>
+			<li>None at this time.</li>
+			-->
+		</ul>
+		<hr />
+
+		<h3>Version 01.00.00</h3>
+		<h4>Enhancements</h4>
+		<ul>
+			<li>Initial release. Allows a scheduled job to run that automatically restarts the application for your DNN website to clear cache and reload the site. This helps prevent issues on sites that don&#39;t recycle.</li>
+		</ul>
+		<h4>Maintenence &amp Bug Fixes</h4>
+		<ul>
+			<li>N/A</li>
+		</ul>
+		<hr />
+
+	</div>
+</div>
+
+
+<style>
+	div.uv-install-wrapper h3, div.uv-install-wrapper h4, div.uv-install-wrapper p, div.uv-install-wrapper hr, div.uv-install-wrapper ul { margin-bottom: 0.5em; }
+	div.uv-install-wrapper ul { padding-left: 2em; }
+</style>
+<div class="uv-install-wrapper">
+	<h1>RestartApp Libraries Extension for DNN</h1>
+
+	<h2>Version 01.02.00</h2>
+	<ul>
+		<li>Raised support for DNN to 10.2 and newer.</li>
+	</ul>
+	<hr />
+
+	<h2>Version 01.01.00</h2>
 	<ul>
 		<li>Raised support for DNN 09.04.04 and up.</li>
 	</ul>
-	<p>Version 01.00.00</p>
+	<hr />
+
+	<h2>Version 01.00.00</h2>
 	<ul>
 		<li>Initial release. Allows a scheduled job to run that automatically restarts the application for your DNN website to clear cache and reload the site. This helps prevent issues on sites that don&#39;t recycle.</li>
 	</ul>
