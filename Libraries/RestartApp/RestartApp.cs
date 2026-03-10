@@ -17,6 +17,8 @@ using DotNetNuke.Instrumentation;
 using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Services.Scheduling;
 using System;
+using DotNetNuke.Abstractions.Application;
+using DotNetNuke.Abstractions.Logging;
 using DotNetNuke.Common.Utilities;
 using DotNetNuke.Services.Log.EventLog;
 
@@ -28,6 +30,7 @@ namespace Upendo.Libraries.RestartApp.ScheduledJobs
     public class RestartApp : SchedulerClient
     {
         private static readonly ILog Logger = LoggerSource.Instance.GetLogger(typeof(RestartApp));
+        private static IApplicationStatusInfo _appStatus; 
 
         /// <summary>
         /// Gets things started...
@@ -70,10 +73,10 @@ namespace Upendo.Libraries.RestartApp.ScheduledJobs
 
         private void RestartApplication()
         {
-            var log = new LogInfo { BypassBuffering = true, LogTypeKey = EventLogController.EventLogType.HOST_ALERT.ToString() };
+            var log = new LogInfo { BypassBuffering = true, LogTypeKey = nameof(EventLogType.HOST_ALERT) };
             log.AddProperty("Message", "Application Restarted by a Scheduled Job");
             LogController.Instance.AddLog(log);
-            Config.Touch();
+            Config.Touch(_appStatus);
         }
 
         private void LogError(Exception ex)
